@@ -22,7 +22,7 @@ include __DIR__ . '/funzioni/function.php'
         </div>
         <div class="row justify-content-center mb-1">
             <div class="alert alert-primary col-10 text-center" role="alert">
-                <?php echo generaPassword($_GET['numeroCaratteri'], $_GET['Ripetizioni'], $_GET['numeri'], $_GET['lettere'], $_GET['simboli']) ?>
+                <?php echo $_SESSION['password'] ?>
             </div>
         </div>
         <div class="row justify-content-center">
